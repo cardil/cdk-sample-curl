@@ -40,7 +40,7 @@ func NewMyStack(scope constructs.Construct, id string) cdktf.TerraformStack {
 func main() {
 	app := cdktf.NewApp(nil)
 
-	NewMyStack(app, "cdk-embedding")
+	NewMyStack(app, "cdk-sample-curl")
 
 	app.Synth()
 }
